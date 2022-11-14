@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            var liczbaP=Number(prompt("Liczba początkowa"));
+            var liczbaK=Number(prompt("Liczba Końcowa"));
+            var skok=Number(prompt("skok"));
+            var ciag="";
+           if(liczbaP<liczbaK){
+                for(var i=liczbaP;i<=liczbaK;i=i+skok){
+                    ciag+=i+",";
+                }
+                alert(ciag);
+            }else{
+                alert("ej no ale liczba początkowa musi być mniejsza od końcowej");
+            }
+            
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
